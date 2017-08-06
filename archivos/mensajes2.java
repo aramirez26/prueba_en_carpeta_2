@@ -14,8 +14,8 @@ import java.io.Serializable;
         
 public class mensajes2 implements Serializable{
     
-    String mensaje;
     String tipo;
+    String lugar;
 
     public mensajes2(String mensaje, String tipo) {
         this.mensaje = mensaje;
